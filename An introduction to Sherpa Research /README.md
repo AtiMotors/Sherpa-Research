@@ -7,7 +7,7 @@ Also add example repo in this
 
 > Setup of remote for running the bot drivebywire
 
-# Integration of first on-board compute (how to navigate in the rest of the repository)
+### Integration of first on-board compute (how to navigate in the rest of the repository)
 
 > First Rpi-4 integration to make the bot run a basic opencv camera model for object-detection on a monocular webcam/camera
 
