@@ -2,6 +2,10 @@
 
 install ros2 humble [^2]
 
+[^1]: My reference.
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
+
 git clone https://github.com/ros-drivers/velodyne.git
 
 set static IP: 192.168.1.100, subnet mask: 255.255.255.0, gateway: 192.168.1.1
