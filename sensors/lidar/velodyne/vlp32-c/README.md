@@ -2,7 +2,7 @@
 
 # ROS
 
-# ROS2 
+# ROS2 Humble
 
 install ros2 humble 
 
