@@ -4,6 +4,8 @@
 
 # ROS2 Humble
 
+### Open 1st terminal
+
 > install ros2 humble 
 
 > git clone https://github.com/ros-drivers/velodyne.git
