@@ -5,9 +5,11 @@ Also add example repo in this
 
 ### First Run (Drive by Wire)
 
-> Integration of first on-board compute (how to navigate in the rest of the repository)
-
 > Setup of remote for running the bot drivebywire
+
+# Integration of first on-board compute (how to navigate in the rest of the repository)
+
+> First Rpi-4 integration to make the bot run a basic opencv camera model for object-detection on a monocular webcam/camera
 
 ### Integration of first stereo camera (how to navigate in the rest of the repository)
 
