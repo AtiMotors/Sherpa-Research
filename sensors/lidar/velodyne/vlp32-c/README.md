@@ -1,10 +1,6 @@
 ## Follow the instructions given below sequentially to setup VLP32-C LiDAR from Velodyne on your Ubuntu Laptop
 
-install ros2 humble [^2]
-
-[^1]: My reference.
-[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
-  This is a second line.
+install ros2 humble 
 
 git clone https://github.com/ros-drivers/velodyne.git
 
