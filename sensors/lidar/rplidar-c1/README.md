@@ -1,7 +1,7 @@
 Reference Repository : https://github.com/Slamtec/sllidar_ros2
 
 # How to Create a ROS2 workspace
-example, choose the directory name ros2_ws, for "development workspace" :
+### example, choose the directory name ros2_ws, for "development workspace" :
 
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
@@ -18,14 +18,15 @@ colcon build --symlink-install
 ## Package environment setup
 
 source ./install/setup.bash
-Note: Add permanent workspace environment variables. It's convenientif the ROS2 environment variables are automatically added to your bash session every time a new shell is launched:
+
+### Note: Add permanent workspace environment variables. It's convenientif the ROS2 environment variables are automatically added to your bash session every time a new shell is launched:
 
 ## Create udev rules for rplidar
 sllidar_ros2 running requires the read and write permissions of the serial device. You can manually modify it with the following command:
 
 sudo chmod 777 /dev/ttyUSB0
 
-## But a better way is to create a udev rule:
+### But a better way is to create a udev rule:
 
 cd src/rpldiar_ros/
 source scripts/create_udev_rules.sh
