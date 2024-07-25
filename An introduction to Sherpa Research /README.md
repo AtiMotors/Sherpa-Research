@@ -3,7 +3,7 @@ Also add example repo in this
 
 ## First setup
 
-### First Run (Drive by Wire)
+### First Run (Drive by Wire - Teleop)
 
 > Setup of remote for running the bot drivebywire
 
