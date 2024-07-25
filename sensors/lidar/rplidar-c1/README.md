@@ -1,19 +1,19 @@
-##How to Create a ROS2 workspace
+## How to Create a ROS2 workspace
 example, choose the directory name ros2_ws, for "development workspace" :
 
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
 
-#Compile & Install sllidar_ros2 package
+# Compile & Install sllidar_ros2 package
 git clone https://github.com/Slamtec/sllidar_ros2.git
 
 
-#Build sllidar_ros2 package
+# Build sllidar_ros2 package
 cd ~/ros2_ws/
 source /opt/ros/<rosdistro>/setup.bash
 colcon build --symlink-install
 
-#Package environment setup
+# Package environment setup
 
 source ./install/setup.bash
 Note: Add permanent workspace environment variables. It's convenientif the ROS2 environment variables are automatically added to your bash session every time a new shell is launched:
