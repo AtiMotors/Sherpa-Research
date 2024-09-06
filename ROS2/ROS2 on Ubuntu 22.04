@@ -9,12 +9,14 @@ https://docs.ros.org/en/humble/Installation.html
 # Step 2 : Select "deb packages" under "Ubuntu Linux - Jammy Jellyfish (22.04)" or just click the below link
 https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
 
-# Step 3 : Set locale
+# Step 3 : Open a fresh terminal on your desktop. 
+
+# Step 4 : Set locale
 Make sure you have a locale which supports UTF-8. If you are in a minimal environment (such as a docker container), the locale 
 may be something minimal like POSIX. We test with the following settings. However, it should be fine if you’re using a different 
 UTF-8 supported locale.
 
-Run the following commands on a freshly opened terminal on your system : 
+Run the following commands in the terminal
 
 locale  # check for UTF-8
 sudo apt update && sudo apt install locales
