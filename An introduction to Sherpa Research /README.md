@@ -19,6 +19,10 @@ Also add example repo in this
 
 > First 2d map based slam to navigate the bot autonomously (how to navigate in the rest of the repository)
 
+### Integration of IMU sensor (how to navigate in the rest of the repository)
+
+> First integrating IMU sensor onto the bot and sensor fusion
+
 ### Integration of first 3-D lidar (how to navigate in the rest of the repository)
 
 > First 3d map based slam to navigate the bot autonomously (how to navigate in the rest of the repository)
