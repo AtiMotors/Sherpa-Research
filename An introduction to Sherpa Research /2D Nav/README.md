@@ -220,7 +220,7 @@ def generate_launch_description():
    ls /dev/ttyUSB*
    
    # Verify LiDAR permissions
-   sudo chmod 666 /dev/ttyUSB0
+   sudo chmod 777 /dev/ttyUSB0
    ```
 
 2. **Map Quality Issues**
